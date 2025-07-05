@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Page d'accueil</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Bienvenue sur la page d'accueil de notre application web.">
+        <link rel="stylesheet" href="bootstrap/bootstrap-5.3.6-dist/css/bootstrap.min.css">
+        <!-- Bootstrap Icons (optionnel) -->
+        <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">-->
+        <link rel="stylesheet" href="css/acceuil.css">
+    </head>
+    <body>
+
+        <!-- HEADER -->
+        <header class="bg-white shadow-sm sticky-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand fw-bold" href="#"><i class="bi bi-code-slash"></i> Projet DHTML</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="accueil.html" class="nav-link active">Accueil</a></li>
+                            <li class="nav-item"><a href="cramer.html" class="nav-link">Cramer</a></li>
+                            <li class="nav-item"><a href="image.html" class="nav-link">Images</a></li>
+                            <li class="nav-item"><a href="pub.html" class="nav-link">Panneau</a></li>
+                            <li class="nav-item"><a href="tab.html" class="nav-link">DataTable</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- SECTION HERO -->
+        <section class="hero-section text-center py-5 text-white">
+            <div class="container">
+                <h1 class="display-3 fw-bold">Bienvenue sur notre projet DHTML</h1>
+                <p class="lead">Une application web dynamique et moderne</p>
+                <a href="cramer.html" class="btn btn-primary btn-lg mt-3">Commencer</a>
+            </div>
+        </section>
+
+        <!-- À PROPOS -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <h2>À propos du projet</h2>
+                        <p>Ce projet a pour but de démontrer l'utilisation du HTML dynamique (DHTML) à travers plusieurs fonctionnalités interactives telles que des animations, des tableaux de données et des panneaux dynamiques,etc...</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/Capture d'écran 2025-07-03 213623.png" alt="Illustration projet" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PARTICIPANTS -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Les participants du projet</h2>
+                <div class="row text-center">
+                    <div class="col-md-3 col-6 mb-4">
+                        <img src="images/Ange.png" class="img-fluid rounded participant-img" alt="Participant 1"><br>
+                        <p>Ange</p>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <img src="images/Clément.jpeg" class="img-fluid rounded participant-img" alt="Participant 2">
+                        <p>Clément</p>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <img src="images/Philliastre.jpg" class="img-fluid rounded participant-img" alt="Participant 3">
+                        <p>Philliastre</p>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <img src="images/pexels-jakubzerdzicki-29711663.jpg" class="img-fluid rounded participant-img" alt="Participant 4">
+                        <p>Participant 4</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="bg-dark text-white text-center py-4">
+            <div class="container">
+                <p class="mb-1">Auteurs : Ange - Philliastre - Clément - Fitiavana</p>
+                <p class="mb-0">&copy; 2025 Projet DHTML. Tous droits réservés.</p>
+            </div>
+        </footer>
+
+        <!-- Bootstrap JS -->
+        <script src="bootstrap/bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

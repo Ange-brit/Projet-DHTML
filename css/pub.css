@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Conteneur de la galerie */
+.pub-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+/* Style des images */
+.pub-banner {
+  width: 100%;
+  max-width: 800px;       /* ou une largeur fixe si tu veux */
+  height: 450px;          /* hauteur fixe pour éviter le "saut" */
+  object-fit: cover;      /* pour que l’image remplisse sans déformation */
+  display: block;
+  margin: 0 auto;         /* centrer horizontalement */
+  border-radius: 10px;    /* optionnel, arrondi des coins */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* optionnel, pour un effet sympa */
+}
+
+/* Effet au survol */
+.pub-banner:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Ajout de transition fluide à la page */
+body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Titre */
+h1 {
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 1rem;
+}
+
+img{
+    width: 100px;
+    height: 400px;
+}
+
+/* Responsive : centrer et adapter les images sur petits écrans */
+@media (max-width: 576px) {
+    .pub-banner {
+        max-width: 90%;
+    }
+}

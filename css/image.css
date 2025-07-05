@@ -1,0 +1,25 @@
+.img_area {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#sliderH, #sliderW {
+  background-color: #e9ecef;
+  border-radius: 8px;
+  padding: 3px;
+  margin-top: 5px;
+}
+
+.ui-slider-horizontal {
+  height: 8px;
+}
+
+.ui-slider-handle {
+  width: 18px !important;
+  height: 18px !important;
+  top: -5px !important;
+  background-color: #0d6efd;
+  border-radius: 50%;
+  border: none;
+}
